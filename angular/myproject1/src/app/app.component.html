@@ -1,4 +1,56 @@
-<!-- <table width="80%">
+ <!-- <h1>interpolation </h1> 
+<br>
+<b> 
+  Name:{{name}}
+  <br>Age:{{age}}
+  <br>Email <input type="text" value="{{email}}"/>
+
+
+  <h2>Property Binding</h2>
+  <br>Name <input type="text"[value]="name"/>
+  <br>Age <input type="text"[value]="age"/>
+  <br>Email <input type="text"[value]="email"/>
+
+
+  <h2>Event Binding </h2>
+  <button (click)="changeName()">Change name </button>
+  <button (click)="changeAge()">Change Age </button>
+  <button (click)="changeEmail()">Change Email </button>
+  <br>
+  <img [src]="imagePath" width="100" height="200"/>
+  <br>
+  <button (click)="changeImage()">Change Image</button>
+  <br>
+  
+  <h2>Two Way Data Binding </h2>
+  <br>
+  First Name<input type="text"[(ngModel)]="fname"/>
+  <br>
+  <b>Welcome {{fname}}</b>
+  <h1 [ngClass]="myClass">Structural and Attribute Directive Exmple</h1>
+   <br>
+  <button (click)="changeFlag()">Show or hide Div</button>
+  <br><br>
+  
+  <div *ngIf="flag" [ngStyle]="myStyle">
+   <br>
+   <ul>
+    <li *ngFor="let v of vehicles"(click)="setSelectedItem(v)">{{v}}</li>
+   </ul>
+   <br>
+   <b>You Have selected interpolation:{{selectedVehicle}}</b>
+   <div [ngSwitch]="selectedVehicle">
+    <font color="blue" *ngSwitchCase="'Two'">Bike</font>
+    <font color="blue" *ngSwitchCase="'three'">Auto</font>
+    <font color="blue" *ngSwitchCase="'four'">Car</font>
+    <font color="blue" *ngSwitchDefault>Invalid</font>
+   </div>
+   <button (click)="changeStyle()">Change Style</button>
+  </div>
+</b>
+
+
+<table width="80%">
   <tr>
     <th>
       <a routerLink="homecomponent">Home</a>
