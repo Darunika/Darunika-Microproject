@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color:rgb(221, 172, 12);
+  }
+  .hii{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  header{
+    background-color: rgb(11, 141, 141);
+    border-top: 5px solid rgb(11, 141, 141);
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+  }
+  .left-content{
+    position: absolute;
+    left: 22%;
+    border-style: solid;
+    padding: 10px;
+    width: 30%;
+    height: 400px;
+    top: 20%;
+    background-color:rgb(241, 218, 190);
+  }
+  
+  .right-content{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    border-style: solid;
+    left: 120%;
+    top:-0.4%;
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(253, 222, 253);
+    
+  }
+  h3{
+    text-align: center;
+  
+  }
+  .hii{
+    background-color:beige;
+    height: 794px;
+    border: 5px solid rgb(108, 58, 50);
+    width: 100%;
+  }
